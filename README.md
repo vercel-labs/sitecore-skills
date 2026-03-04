@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-7-green.svg)](#available-skills)
 
-Claude Code skills for building [Sitecore Marketplace](https://developers.sitecore.com/marketplace) apps. Covers the full lifecycle: scaffolding, SDK integration, Blok UI components, and deployment to Vercel.
+Claude Code skills for building [Sitecore Marketplace](https://doc.sitecore.com/mp/en/developers/marketplace/introduction-to-sitecore-marketplace-for-custom-and-public-apps.html) apps. Covers the full lifecycle: scaffolding, SDK integration, Blok UI components, and deployment to Vercel.
 
 Built for the Sitecore Marketplace SDK (v0.4) targeting Next.js App Router apps.
 
@@ -95,7 +95,7 @@ Add AI Skills integration for the Brand Review API. Supports text, image (base64
 
 ## Links
 
-- [Sitecore Marketplace SDK Docs](https://developers.sitecore.com/marketplace/sdk)
+- [Sitecore Marketplace SDK Docs](https://doc.sitecore.com/mp/en/developers/sdk/latest/sitecore-marketplace-sdk/sitecore-marketplace-sdk-for-javascript.html)
 - [Sitecore Developer Portal](https://developers.sitecore.com)
 
 ## License
