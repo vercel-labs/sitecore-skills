@@ -20,10 +20,10 @@ Blok components are installed via the shadcn CLI:
 
 ```bash
 # Install the Blok theme (required first)
-npx shadcn@latest add https://marketplace-sdk.sitecorecloud.io/r/blok-theme.json
+npx shadcn@latest add https://blok.sitecore.com/r/theme.json
 
 # Install individual components
-npx shadcn@latest add https://marketplace-sdk.sitecorecloud.io/r/<component-name>.json
+npx shadcn@latest add https://blok.sitecore.com/r/<component-name>.json
 ```
 
 See [blok-components.md](references/blok-components.md) for the full component catalog with install commands.

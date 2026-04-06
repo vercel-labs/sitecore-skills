@@ -1,12 +1,12 @@
 # Blok Component Catalog
 
-All components are installed via `npx shadcn@latest add <url>` where the URL is `https://marketplace-sdk.sitecorecloud.io/r/<name>.json`.
+All components are installed via `npx shadcn@latest add <url>` where the URL is `https://blok.sitecore.com/r/<name>.json`.
 
 ## Theme (install first)
 
 | Component | Install Command |
 |-----------|----------------|
-| Blok Theme | `npx shadcn@latest add https://marketplace-sdk.sitecorecloud.io/r/blok-theme.json` |
+| Blok Theme | `npx shadcn@latest add https://blok.sitecore.com/r/theme.json` |
 
 ## Layout & Structure
 
@@ -92,7 +92,7 @@ All components are installed via `npx shadcn@latest add <url>` where the URL is 
 
 ```bash
 # Install several at once
-npx shadcn@latest add https://marketplace-sdk.sitecorecloud.io/r/card.json https://marketplace-sdk.sitecorecloud.io/r/button.json https://marketplace-sdk.sitecorecloud.io/r/input.json https://marketplace-sdk.sitecorecloud.io/r/skeleton.json https://marketplace-sdk.sitecorecloud.io/r/alert.json
+npx shadcn@latest add https://blok.sitecore.com/r/card.json https://blok.sitecore.com/r/button.json https://blok.sitecore.com/r/input.json https://blok.sitecore.com/r/skeleton.json https://blok.sitecore.com/r/alert.json
 ```
 
 ## Usage Pattern

@@ -19,9 +19,9 @@ Ask the user the following questions (skip any they've already answered):
 3. **Authentication** — Built-in (default) or Auth0?
    - **Built-in**: Zero-config, SDK handles auth automatically. Sufficient for most apps.
    - **Auth0**: Required for server-side API access, external service integration, or custom auth flows. Requires Auth0 tenant setup.
-4. **Optional packages** — Which additional SDK packages?
-   - **XM Cloud (`xmc`)**: Access Sites, Pages, Authoring, Content Transfer, Search, and Agent APIs
-   - **AI Skills (`ai`)**: Access Brand Review API for AI-powered content analysis
+4. **XM Cloud integration?** — Does the app need XM Cloud APIs (Sites, Pages, Authoring, Content Transfer, Search, Agent)?
+   - If yes + client-side architecture: uses `quickstart-with-client-side-xmc` template
+   - If yes + full-stack architecture: uses `quickstart-with-full-stack-xmc` template
 
 ## Step 2: Run the Scaffold Command
 
@@ -29,28 +29,16 @@ Based on answers, construct and run the appropriate command:
 
 ```bash
 # Client-side only (built-in auth)
-npx shadcn@latest add https://marketplace-sdk.sitecorecloud.io/r/app-client.json
+npx shadcn@latest add https://blok.sitecore.com/r/marketplace/next/quickstart.json
 
 # Client-side + XMC
-npx shadcn@latest add https://marketplace-sdk.sitecorecloud.io/r/app-client.json https://marketplace-sdk.sitecorecloud.io/r/xmc.json
-
-# Client-side + AI
-npx shadcn@latest add https://marketplace-sdk.sitecorecloud.io/r/app-client.json https://marketplace-sdk.sitecorecloud.io/r/ai.json
-
-# Client-side + XMC + AI
-npx shadcn@latest add https://marketplace-sdk.sitecorecloud.io/r/app-client.json https://marketplace-sdk.sitecorecloud.io/r/xmc.json https://marketplace-sdk.sitecorecloud.io/r/ai.json
+npx shadcn@latest add https://blok.sitecore.com/r/marketplace/next/quickstart-with-client-side-xmc.json
 
 # Full-stack (Auth0) — adds server-side SDK support
-npx shadcn@latest add https://marketplace-sdk.sitecorecloud.io/r/app-auth0.json
+npx shadcn@latest add https://blok.sitecore.com/r/marketplace/next/quickstart-with-custom-auth.json
 
 # Full-stack + XMC
-npx shadcn@latest add https://marketplace-sdk.sitecorecloud.io/r/app-auth0.json https://marketplace-sdk.sitecorecloud.io/r/xmc.json
-
-# Full-stack + AI
-npx shadcn@latest add https://marketplace-sdk.sitecorecloud.io/r/app-auth0.json https://marketplace-sdk.sitecorecloud.io/r/ai.json
-
-# Full-stack + XMC + AI
-npx shadcn@latest add https://marketplace-sdk.sitecorecloud.io/r/app-auth0.json https://marketplace-sdk.sitecorecloud.io/r/xmc.json https://marketplace-sdk.sitecorecloud.io/r/ai.json
+npx shadcn@latest add https://blok.sitecore.com/r/marketplace/next/quickstart-with-full-stack-xmc.json
 ```
 
 **Important**: If the user doesn't have a Next.js project yet, scaffold one first:
@@ -86,7 +74,7 @@ const nextConfig: NextConfig = {
 
 3. **Install Blok theme** (if not already present):
 ```bash
-npx shadcn@latest add https://marketplace-sdk.sitecorecloud.io/r/blok-theme.json
+npx shadcn@latest add https://blok.sitecore.com/r/theme.json
 ```
 
 4. **Verify setup** — Run the dev server and confirm no errors:

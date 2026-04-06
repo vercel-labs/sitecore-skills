@@ -10,9 +10,13 @@ You are helping the user add XM Cloud API integration to their Sitecore Marketpl
 
 ## Prerequisites
 
-The XMC package must be installed. If not:
+The app must have been scaffolded with XMC support. If not, scaffold with one of the XMC quickstart templates:
 ```bash
-npx shadcn@latest add https://marketplace-sdk.sitecorecloud.io/r/xmc.json
+# Client-side XMC
+npx shadcn@latest add https://blok.sitecore.com/r/marketplace/next/quickstart-with-client-side-xmc.json
+
+# Full-stack XMC (Auth0)
+npx shadcn@latest add https://blok.sitecore.com/r/marketplace/next/quickstart-with-full-stack-xmc.json
 ```
 
 ## Step 1: Determine Which API

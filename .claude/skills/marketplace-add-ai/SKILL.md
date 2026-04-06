@@ -9,9 +9,9 @@ You are helping the user add AI Skills integration to their Sitecore Marketplace
 
 ## Prerequisites
 
-The AI package must be installed. If not:
+The AI Skills package (`@sitecore-marketplace-sdk/ai`) must be installed:
 ```bash
-npx shadcn@latest add https://marketplace-sdk.sitecorecloud.io/r/ai.json
+npm install @sitecore-marketplace-sdk/ai
 ```
 
 ## Step 1: Determine Use Case
